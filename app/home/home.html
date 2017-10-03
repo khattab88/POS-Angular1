@@ -1,0 +1,45 @@
+<div class="page-header">
+    <hello>{{ title }}</hello>
+</div>
+
+<!-- <expander class="expander" expander-title="{{ title }}">
+    {{ text }}
+</expander> -->
+
+<!-- <input id="dateField"
+datepicker
+ng-model="$parent.currentDate"
+select="updateMyText(date)">
+
+<br/>
+{{myText}} - {{currentDate}} -->
+
+<div class="row">
+    <div class="col-md-4">
+        <form>
+            <div class="form-group">
+              <label for="quantity">Quantity</label>
+              <input type="number" min="0" class="form-control" id="quantity" placeholder="Quantity" 
+                ng-model="invoice.quantity">
+            </div>
+        
+            <div class="form-group">
+                <label for="cost">Cost</label>
+                <input type="number" min="0" class="form-control" id="cost" placeholder="Cost"
+                  ng-model="invoice.cost">
+              </div>
+        
+            <button type="button" class="btn btn-primary" 
+                ng-click="invoice.calculateInvoiceTotal(invoice.quantity, invoice.cost)">Calculate</button>
+        </form>
+
+        <strong>Total:</strong> {{ invoice.total | currency }}
+    </div>    
+</div>
+
+
+
+
+
+
+

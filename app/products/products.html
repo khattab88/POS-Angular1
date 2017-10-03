@@ -1,0 +1,57 @@
+
+<div class="row">
+  <div class="col-md-1">
+      <br>
+    <h4>Search</h4>
+  </div>
+  <div class="col-md-3">
+    <div class="input-group">
+        <br>
+        <input type="text" ng-model="searchText" class="form-control" placeholder="Product Name">
+      </div>
+  </div>
+</div>
+
+<hr>
+
+<div class="row">
+  <div class="col-md-9">
+
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Code</th>
+          <th>released</th>
+          <th>Price</th>
+          <th>Rating</th>
+          <th>Image</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr ng-repeat="product in products | filter:searchText">
+          <td>
+              <a href="#!/products/{{ product.productId }}"><strong>{{ product.productName }}</strong></a>
+          </td>
+          <td>
+            {{ product.productCode }}
+          </td>
+          <td>
+            {{ product.releaseDate }}
+          </td>
+          <td>
+              {{ product.price | currency:"$":0 }}
+          </td>
+          <td>
+            {{ product.starRating }}
+          </td>
+          <td>
+              <img height="50" width="50" ng-src="{{product.imageUrl}}" alt="{{product.productName}}">
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+
+  </div>
+</div>

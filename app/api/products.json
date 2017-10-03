@@ -1,0 +1,72 @@
+[
+    {
+        "productId": 1,
+        "productName": "Apple iPhone 6 Plus",
+        "productCode": "GDN-0011",
+        "releaseDate": "March 19, 2016",
+        "description": "Apple abandoned scaling the original 320 x 480 resolution by various factors and jumped to an industry standard of 1080p. This means that for the first time the iPhone can show FullHD video at 1:1 and also represents the first jump in pixel density since the iPhone 4 (even the smaller iPhone 6 is still at 326ppi). The screen is the defining feature of the iPhone 6 Plus but another important update is the addition of Optical Image Stabilization to the camera, which has otherwise only seen iterative updates for the last four years.",
+        "price": 800.00,
+        "starRating": 4.8,
+        "imageUrl": "http://cdn2.gsmarena.com/vv/pics/apple/apple-iphone-6-plus-1.jpg"
+    },
+    {
+        "productId": 2,
+        "productName": "Sony Xperia Z3",
+        "productCode": "GDN-0023",
+        "releaseDate": "March 18, 2016",
+        "description": "Sony's shorter update cycle sees the Xperia Z3 clock in just 6 months after its predecessor. At first glance, the next flagship isn't too generous with the upgrades, but anyone who has handled the Xperia Z2 will see most of its key issues addressed. Curved at the edges for a fresh new look, the handset is supposed to offer improved ergonomics. Add the slimmer bezels, the loss of weight and the slimmer profile, and the Sony Xperia Z3 is already looking strong in the only area where its predecessor was open to criticism.",
+        "price": 600.00,
+        "starRating": 4.2,
+        "imageUrl": "http://cdn2.gsmarena.com/vv/pics/sony/sony-xperia-z3-01.jpg"
+    },
+    {
+        "productId": 5,
+        "productName": "Samsung Galaxy S6",
+        "productCode": "TBX-0048",
+        "releaseDate": "May 21, 2016",
+        "description": "For the first time in a couple of generations, Samsung is relying solely on its own Exynos platform. This seemed like of nick-of-time decision amid rumors of cooling issues and thermal throttling plaguing the Snapdragon 810 chipset but the fact is the Exynos 7420 (7 Octa) is simply better. The only reason Qualcomm were in the story at all was the uncertainty whether Samsung would be ready for mass production with its own chipset. Built on a 14nm process, Samsung's chipset allows similar or higher clockspeeds (hence performance) with less power consumption, which by the way means it's easier to cool as well. In the end, the Galaxy S6 is powered by a beastly octa-core processor with four Cortex-A57 cores ticking at 2.1GHz and four Cortex-A53 'efficiency' cores at 1.5GHz. An octa-core Mali-T760 GPU and 3GB of RAM complete the tally.",
+        "price": 550.00,
+        "starRating": 4.3,
+        "imageUrl": "http://cdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s6-1.jpg"
+    },
+    {
+        "productId": 8,
+        "productName": "LG G4",
+        "productCode": "TBX-0022",
+        "releaseDate": "May 15, 2016",
+        "description": "The camera really is the new phone's key feature. LG picked a new 16MP sensor, improved the optical stabilization, gave it a wider aperture lens, added a handful of new software features (including manual mode) and placed a top-notch selfie camera on the front. A complete overhaul of the imaging department. LG designers were hard at work too. They gave the LG G4 a subtle arc that complements the spacious screen and sourced high-quality materials for the back covers. The premium option is made of genuine full grain leather with threads imported from Germany used on the decorative stitching. Even the basic backs are far from plain - the white one has ceramic coating.",
+        "price": 450.00,
+        "starRating": 3.7,
+        "imageUrl": "http://cdn2.gsmarena.com/vv/pics/lg/lg-g4-1.jpg"
+    },
+    {
+        "productId": 10,
+        "productName": "Huawei Nexus 6P",
+        "productCode": "GMG-0042",
+        "releaseDate": "October 15, 2015",
+        "description": "Huawei and Google conceived a perfect sequel to the Nexus 6 - it's the first time Huawei is on board the Nexus program as well but their track record of excellent premium phones has positioned them as an ideal choice for a Google hardware partner. The 6P offers a perfect balance of premium feel, software experience, and attention to detail without skimping out in other aspects (such as the camera experience or build quality).",
+        "price": 350.00,
+        "starRating": 4.6,
+        "imageUrl": "http://cdn2.gsmarena.com/vv/pics/huawei/huawei-nexus-6p-1.jpg"
+    },
+    {
+        "productId": 11,
+        "productName": "HTC 10",
+        "productCode": "GMG-0042",
+        "releaseDate": "October 15, 2015",
+        "description": "Before the HTC 10, pretty much every iteration of the HTC One series in recent years brought some form of compromise. The HTC One M7 had a great camera, the first of its kind, the problem was only 4MP did not allow any sort of cropping without anyone noticing. The HTC One M8 had the same 4 megapixel camera and HTC made a bad choice to even remove OIS from the flagship. The HTC One M9 was a step in the right direction, but it was not enough. Even with a bigger camera sensor this time around, the camera performance was still lackluster. The One M9 was also plagued with overheating problems caused by an early version of the Snapdragon 810 which had to be downclocked just to avoid the heating issues. As a result, the HTC's M9 unofficially became the flagship to avoid.",
+        "price": 450.00,
+        "starRating": 4.6,
+        "imageUrl": "http://cdn2.gsmarena.com/vv/pics/htc/htc-10-5.jpg"
+    },
+    {
+        "productId": 13,
+        "productName": "Samsung Galaxy Note8",
+        "productCode": "GMG-0042",
+        "releaseDate": "October 15, 2015",
+        "description": "For the first time in a couple of generations, Samsung is relying solely on its own Exynos platform. This seemed like of nick-of-time decision amid rumors of cooling issues and thermal throttling plaguing the Snapdragon 810 chipset but the fact is the Exynos 7420 (7 Octa) is simply better. The only reason Qualcomm were in the story at all was the uncertainty whether Samsung would be ready for mass production with its own chipset. Built on a 14nm process, Samsung's chipset allows similar or higher clockspeeds (hence performance) with less power consumption, which by the way means it's easier to cool as well. In the end, the Galaxy S6 is powered by a beastly octa-core processor with four Cortex-A57 cores ticking at 2.1GHz and four Cortex-A53 'efficiency' cores at 1.5GHz. An octa-core Mali-T760 GPU and 3GB of RAM complete the tally.",
+        "price": 500.00,
+        "starRating": 4.1,
+        "imageUrl": "http://cdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-note8-5.jpg"
+    }
+]
