@@ -19,7 +19,7 @@ angular.module('myApp.products', ['ngRoute'])
   .controller('ProductsCtrl', ["$scope", "ProductSvc", function ($scope, ProductSvc) {
 
     $scope.title = "Product List";
-    $scope.products = null;
+    $scope.products = [];
 
     $scope.products = ProductSvc.getProducts().then(
       function (data) {

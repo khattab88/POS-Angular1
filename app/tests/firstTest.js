@@ -1,7 +1,7 @@
-describe("first Test", function(){
+// describe("first Test", function(){
 
-    it("test 2", function(){
-        expect(true).toBe(true);
-    });
+//     it("test 2", function(){
+//         expect(true).toBe(true);
+//     });
 
-});
+// });
