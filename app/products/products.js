@@ -16,19 +16,22 @@ angular.module('myApp.products', ['ngRoute'])
 
   }])
 
-  .controller('ProductsCtrl', ["$scope", "ProductSvc", function ($scope, ProductSvc) {
+  .controller('ProductsCtrl', ["$scope", "$log", "ProductSvc", "SharedSvc",
+     function ($scope, $log, ProductSvc, SharedSvc) {
 
     $scope.title = "Product List";
     $scope.products = [];
 
-    $scope.products = ProductSvc.getProducts().then(
+    ProductSvc.getProducts().then(
       function (data) {
         $scope.products = data;
-      }
-      , function (status) {
-        console.log(status);
+      },
+       function (status) {
+        $log.write(status);
       });
 
-  
+      $scope.appName = SharedSvc.appName;
+
+     
 
   }]);
