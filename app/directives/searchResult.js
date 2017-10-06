@@ -11,23 +11,9 @@ angular.module("myApp.directives")
                 searchResultObject: "=",
                 formatSearchResultFunction: "&"
             },
-            compile: function(elem, attrs){
-
-                console.log("compiling...");
-                console.log(elem.html());
-                console.log(attrs);
-
-                return{
-                    pre: function(scope, elements, attrs){
-                        console.log("pre-linking...");
-                        console.log(elements);
-                    },
-                    post: function(scope, elements, attrs){
-                        console.log("post-linking...");
-                        console.log(elements);
-                    }
-                }
-
+            link: function(scope, elements, attrs){
+                    console.log("linking...");
+                    console.log(elements);
             }
         };
 
