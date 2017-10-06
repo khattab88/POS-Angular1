@@ -9,7 +9,7 @@ angular.module('myApp.home', ['ngRoute'])
   });
 }])
 
-.controller('HomeCtrl', ["$scope", "InvoiceSvc", function($scope, InvoiceSvc) {
+.controller('HomeCtrl', ["$scope", "InvoiceSvc", "SharedSvc", function($scope, InvoiceSvc, SharedSvc) {
 
   $scope.title = "Home Page";
 
@@ -27,17 +27,27 @@ angular.module('myApp.home', ['ngRoute'])
     total: 0,
     quantity: 0,
     cost: 0,
-    calculateInvoiceTotal: function(quantity, cost){
+    calculateInvoiceTotal: function(quantity, cost, event){
       this.total = InvoiceSvc.calculateInvoiceTotal(quantity, cost);
+
+      console.log(event);
     }
   };
-
   $scope.invoice = invoice;
+
+  
+  $scope.appName = SharedSvc.appName;
+
+  $scope.person = {
+    name: "omar",
+    age: 30
+  };
 
   // search result directive model
   $scope.searchResult = {
     heading: "Search Result Heading",
     text: "Search Result Text"
   };
+
 
 }]);

@@ -1,3 +1,5 @@
+"use strict";
+
 angular.module("myApp.directives")
     .directive("expanderDirective", function () {
         return {
