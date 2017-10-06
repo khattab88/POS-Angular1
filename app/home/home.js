@@ -34,4 +34,10 @@ angular.module('myApp.home', ['ngRoute'])
 
   $scope.invoice = invoice;
 
+  // search result directive model
+  $scope.searchResult = {
+    heading: "Search Result Heading",
+    text: "Search Result Text"
+  };
+
 }]);
