@@ -22,7 +22,9 @@ select="updateMyText(date)">
         <div class="list-group">
             <search-result ng-repeat="searchResult in searchResults"
                            search-result-object="searchResult"
-                           format-search-result-function="formatSearchResult(asearchResult)"></search-result>
+                           format-search-result-function="formatSearchResult(asearchResult)">
+                        *search result may not be accurate
+            </search-result>
         </div>
     </div>
 </div>

@@ -14,7 +14,8 @@ angular.module("myApp.directives")
             link: function(scope, elements, attrs){
                     console.log("linking...");
                     console.log(elements);
-            }
+            },
+            transclude: true
         };
 
 }]);
