@@ -49,5 +49,11 @@ angular.module('myApp.home', ['ngRoute'])
     text: "Search Result Text"
   };
 
+  $scope.formatSearchResult = function(searchResult){
+
+    return `${searchResult.heading} - ${searchResult.text}`;
+
+  };
+
 
 }]);

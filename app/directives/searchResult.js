@@ -8,7 +8,8 @@ angular.module("myApp.directives")
             replace: true,
             restrict: "EA",
             scope: {
-                searchResultObject: "="
+                searchResultObject: "=",
+                formatSearchResultFunction: "&"
             }
         };
 
