@@ -6,7 +6,11 @@ angular.module("myApp.directives")
         return{
             templateUrl: "directives/searchResult.html",
             replace: true,
-            restrict: "EA"
+            restrict: "EA",
+            scope: {
+                searchResultHeading: "@",
+                searchResultText: "@"
+            }
         };
 
 }]);
