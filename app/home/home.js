@@ -9,9 +9,10 @@ angular.module('myApp.home', ['ngRoute'])
     });
   }])
 
-  .controller('HomeCtrl', ["$scope", "InvoiceSvc", "SharedSvc", function ($scope, InvoiceSvc, SharedSvc) {
+  .controller('HomeCtrl', ["$scope", "InvoiceSvc", "SharedSvc", "configuration" , function ($scope, InvoiceSvc, SharedSvc, configuration) {
 
-    $scope.title = "Home Page";
+    $scope.userName = configuration.userName;
+    console.log(configuration.userName);
 
     // $scope.title = 'Click me to expand';
     // $scope.text = 'Hi there folks, I am the content'
