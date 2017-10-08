@@ -9,6 +9,8 @@ angular.module('myApp.home', ['ngRoute'])
     });
   }])
 
+  
+
   .controller('HomeCtrl', ["$scope", "InvoiceSvc", "SharedSvc", "configuration" , function ($scope, InvoiceSvc, SharedSvc, configuration) {
 
     $scope.userName = configuration.userName;
@@ -68,3 +70,8 @@ angular.module('myApp.home', ['ngRoute'])
 
 
   }]);
+
+
+
+
+  
