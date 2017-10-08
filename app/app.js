@@ -25,6 +25,7 @@ angular.module('myApp', [
 
   this.initialize = function(data){
     configurationData = data;
+    console.log(data);
   };
 
   this.$get = function(){
@@ -41,11 +42,20 @@ angular.element(document).ready(function(){
     userName: "omar"
   };
 
-    //$.get("config.json", function(response){
+
+    $.get("api/config.json", function(data){ 
+      response = data;
+    });
+
+    //$.getJSON("api/config.json", function(response){
       angular.module("myApp").config(function(configurationProvider){
         configurationProvider.initialize(response);
+        console.log(response);
       });
     //});
+      
+
+   
   
     angular.bootstrap(document, ["myApp"]);
   
