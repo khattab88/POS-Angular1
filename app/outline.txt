@@ -1,0 +1,20 @@
+- What is AngularJS ?
+- Differnce between AngularJS and JQuery
+
+- AngularJS Compoenents
+    - scope (and $watch())
+    - view
+    - controller
+    - Services:
+        a) Lazy-Instance (Factory)
+        b) Singleton (Service)
+    - DI Container (Dependency Injection)
+    - Filters
+        a) built-in
+        b) Custom
+    - Directives:
+        a) ng
+        b) custom
+
+- Angular App Structure
+- Angular App Architecture (example)
