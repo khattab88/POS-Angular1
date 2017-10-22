@@ -18,3 +18,7 @@
 
 - Angular App Structure
 - Angular App Architecture (example)
+
+- Testing:
+    a) Unit (karma)
+    b) e2e scenario (protractor) 
