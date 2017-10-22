@@ -1,0 +1,20 @@
+- Angular Docs (https://docs.angularjs.org/guide/)
+
+- Pluralsight - AngularJS Fundamentals (https://www.pluralsight.com/courses/angularjs-fundamentals)
+
+- Pluralsight - AngularJS Line of Business Applications (https://www.pluralsight.com/courses/angularjs-line-of-business-applications)
+
+- Udemy - Learn and Understand AngularJS (https://www.udemy.com/learn-angularjs/)
+
+-  O'Reilly - AngularJS (http://shop.oreilly.com/product/0636920028055.do)
+
+- AngularJS tutorial (https://www.youtube.com/watch?v=zKkUN-mJtPQ&list=PL6n9fhu94yhWKHkcL7RJmmXyxkuFB3KSl)
+
+- Angular 1 Style Guide (https://github.com/johnpapa/angular-styleguide/blob/master/a1/README.md)
+
+- AngularJS Best Practices (http://gokulkrishh.github.io/angular-best-practices/#/) 
+
+- Pluralsight - AngularJS Best Practices (https://www.pluralsight.com/courses/angular-best-practices)
+
+- Building Single Page Applications using Web API and angularJS (https://chsakell.com/2015/08/23/building-single-page-applications-using-web-api-and-angularjs-free-e-book/)
+
